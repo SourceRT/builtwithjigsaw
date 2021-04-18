@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function heading  {
-    echo $(tput bold)$(tput setaf 1)$@ $(tput sgr 0)
+    echo $(tput bold)$(tput setaf 1)'$'@''$(tput sgr 0)'
 }
 
 function bold {

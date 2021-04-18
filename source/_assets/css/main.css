@@ -62,7 +62,8 @@ a {
     @apply text-purple;
     @apply no-underline;
 
-    &:hover {
+
+    :hover {
         @apply text-purple-dark;
         @apply underline;
     }
@@ -79,7 +80,8 @@ a {
 .jigsaw-hero {
     background: url('/assets/images/jigsaw-outline.svg');
     min-height: 175px;
-
+}
+{
     @apply bg-cover;
     @apply flex;
     @apply flex-col;
@@ -88,14 +90,12 @@ a {
     @apply mb-8;
     @apply text-white;
     @apply w-full;
-
-    a {
-        @apply font-normal;
-        @apply text-white;
-        @apply no-underline;
-
-    }
+    @apply font-normal;
+    @apply text-white;
+    @apply no-underline;
+{
 }
+},
 
 [v-cloak] {
     display: none;

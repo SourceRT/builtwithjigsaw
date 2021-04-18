@@ -4,3 +4,5 @@
 /vendor/
 .vscode/settings.json
 .gitignore
+addarticle.sh
+source/assets/build/.DS_Store
